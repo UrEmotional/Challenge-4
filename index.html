@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Quiz</title>
+  </head>
+ 
+<form id="quiz-form">
+    <div class="question">
+      <h2>What is a programming language?</h2>
+      <div class="answers">
+        <input type="radio" name="question1" value="A" id="q1a">
+        <label for="q1a">A tool for creating websites</label><br>
+        <input type="radio" name="question1" value="B" id="q1b">
+        <label for="q1b">A way to communicate with computers</label><br>
+        <input type="radio" name="question1" value="C" id="q1c">
+        <label for="q1c">A verbal language spoken</label>
+      </div>
+    </div>
+    <div class="question">
+      <h2>What is a variable?</h2>
+      <div class="answers">
+        <input type="radio" name="question2" value="A" id="q2a">
+        <label for="q2a">A value that can change</label><br>
+        <input type="radio" name="question2" value="B" id="q2b">
+        <label for="q2b">A value that cannot change</label><br>
+        <input type="radio" name="question2" value="C" id="q2c">
+        <label for="q2c">A type of math operation</label>
+      </div>
+    </div>
+    <div class="question">
+      <h2>What is a loop in programming?</h2>
+      <div class="answers">
+        <input type="radio" name="question3" value="A" id="q3a">
+        <label for="q3a">A way to repeat a block of code</label><br>
+        <input type="radio" name="question3" value="B" id="q3b">
+        <label for="q3b">A way to stop a block of code from executing</label><br>
+        <input type="radio" name="question3" value="C" id="q3c">
+        <label for="q3c">A way to skip a block of code</label>
+      </div>
+    </div>
+    <div class="question">
+      <h2>What does CSS stand for?</h2>
+      <div class="answers">
+        <input type="radio" name="question4" value="A" id="q4a">
+        <label for="q4a">Cascading Style Sheets</label><br>
+        <input type="radio" name="question4" value="B" id="q4b">
+        <label for="q4b">Computer Science Styles</label><br>
+        <input type="radio" name="question4" value="C" id="q4c">
+        <label for="q4c">Creative Style Sheets</label>
+      </div>
+    </div>
+    <div class="question">
+      <h2>Which of the following is a valid JavaScript data type?</h2>
+      <div class="answers">
+        <input type="radio" name="question5" value="A" id="q5a">
+        <label for="q5a">string</label><br>
+        <input type="radio" name="question5" value="B" id="q5b">
+        <label for="q5b">text</label><br>
+        <input type="radio" name="question5" value="C" id="q5c">
+        <label for="q5c">char</label>
+      </div>
+    </div>
+   
+    
+    
+    <div id="timer"></div>
+    <input type="text" id="initials" placeholder="Enter your initials">
+    <button type="submit">Submit Quiz</button>
+  </form>
+  <div id="scoreboard"></div>
+<button id="play-again">Play Again</button>
+<script src="./assets/js/script.js"></script>
